@@ -1,5 +1,5 @@
 # Import the add function so the test can use it
-from calculator import add,divide
+from calculator import add,divide,subtract
 import pytest
 
 def test_add():
@@ -15,6 +15,7 @@ def test_add():
 def test_divide():	
 	with pytest.raises(ZeroDivisionError):
 		divide(1,0)
+		
 def test_subtract():
     assert subtract(5, 3) == 2
 

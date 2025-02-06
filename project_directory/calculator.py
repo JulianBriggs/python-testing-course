@@ -8,5 +8,5 @@ def divide(numerator, denominator):
     
     
 def subtract(a, b):
-    return a + b
+    return a - b
 
