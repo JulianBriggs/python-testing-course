@@ -1,5 +1,5 @@
 # Import the add function so the test can use it
-from calculator import add,divide
+from calculator import add,divide,subtract
 import pytest
 
 def test_add():
