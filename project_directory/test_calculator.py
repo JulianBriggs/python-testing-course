@@ -15,3 +15,6 @@ def test_add():
 def test_divide():	
 	with pytest.raises(ZeroDivisionError):
 		divide(1,0)
+def test_subtract():
+    assert subtract(5, 3) == 2
+
