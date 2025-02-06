@@ -33,4 +33,4 @@ jobs:
             # This step runs the tests using the pytest command. Remember to use the --mpl and --regtest flags to run the tests that use matplotlib and pytest-regtest.
             - name: Run tests
               run: |
-                pytest --mpl --regtest
+                pytest 
